@@ -97,6 +97,7 @@ ul {
     color: whitesmoke;
     border-style: none;
     border-radius: 6px;
+    margin-left: 0px;
 }
 
 .hero__material {
@@ -160,16 +161,20 @@ ul {
     font-size: 14px;
 }
 
+.whychoosecontainer {
+    display: flex;
+    margin: 0 16px;
+}
+
 .whychoose {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: auto;
     gap: 1rem;
     height: 250px;
-    margin: auto;
     max-width: 700px;
-    justify-content: center;
-    
 }
 
 .whychooseoption {
@@ -211,16 +216,23 @@ footer {
     align-items: center;
 }
 
+.newslettercontainer {
+    display: grid;
+    margin: auto 16px;
+}
+
 .newsletter {
     max-width: 700px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 32px;
     height: 200px;
+    width: 100%;
     background-color: #ffffff8d;
     border-radius: 16px;
 }
