@@ -3,7 +3,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: borderbox;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
 }
 
 html {
@@ -112,4 +116,137 @@ ul {
     font-size: 12px;
     text-align: justify;
     max-width: 200px;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+.skincarecontainer {
+    width: 700px;
+}
+
+.skincare {
+    display: flex;
+    flex-direction: row wrap;
+    gap: 3rem;
+    margin: auto;
+    height: 300px;
+    justify-items: center;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin-top: 40px;
+}
+
+.skincare1, .skincare2, .skincare3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+}
+
+.skincare1 h3, .skincare2 h3, .skincare3 h3 {
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.skincare1 a, .skincare2 a, .skincare3 a {
+    font-weight: 400;
+    color: #542bb5;
+    font-size: 14px;
+}
+
+.whychoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: 250px;
+    margin: auto;
+    max-width: 700px;
+    justify-content: center;
+    
+}
+
+.whychooseoption {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 2rem;
+}
+
+.whychooseoption p {
+    font-size: 14px;
+    opacity: 60%;
+    padding: 4px;
+}
+
+.whychooseoption h3 {
+    font-size: 16px;
+    opacity: 60%;
+    padding: 4px;
+}
+
+.whychoose h2 {
+    opacity: 70%;
+}
+
+.delivery, .organic, .sideffect {
+    background-color: rgba(125, 75, 231, 0.144);
+    border-radius: 8px;
+    padding: 12px;
+}
+
+footer {
+    background-color: #542bb5;
+    color: whitesmoke;
+    font-size: 12px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 32px;
+    height: 200px;
+    background-color: #ffffff8d;
+    border-radius: 16px;
+}
+
+.newsletter h2 {
+    opacity: 70%;
+}
+
+form, button, input {
+    font: inherit;
+}
+
+input {
+    padding: 5px 32px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 12px;
+    text-align: left;
+}
+
+button {
+    padding: 4px 12px;
+    margin: 16px;
+    font-size: 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #542bb5;
+    color: whitesmoke;
 }
