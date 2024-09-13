@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+}
+
+html {
+    font-family: "Montserrat", system-ui;;
+    background-color: #e0e0e1;
+    --BGCOLOR: rgb(250, 234, 201);
+    --COLOR: #737375;
+    --LINKCOLOR: rgb(85, 85, 85);
+    --LINKFS: 12px;
+}
+
+.bgcolor {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/skincare2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    color: var(--LINKCOLOR);
+    font-family: var(--FF);
+    display: flex;
+    justify-content: center;
+    font-size: var(--LINKFS);
+}
+
+.header__width {
+    margin: 0 20px;
+    width: 700px;
+    height: 48px;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+a:any-link {
+    color: var(--COLOR);
+    font-family: var(--FF);
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 700px;
+    margin: 20px;
+}
+
+.hero__heading {
+    max-width: 60%;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    margin: 16px 0;
+}
+
+.hero__p {
+    font-size: 16px;
+    margin: 16px 0 20px 0;
+    width: 60%;
+}
+
+.hero__button {
+    padding: 8px;
+    width: 100px;
+    background-color: #542bb5;
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 6px;
+}
+
+.hero__material {
+    display: flex;
+    flex-direction: row nowrap;
+    gap: 2rem;
+    margin: 16px 0;
+}
+
+.hero__material h3 {
+    font-size: 16px;
+    opacity: 70%;
+    margin: 8px 0;
+}
+
+.hero__material p {
+    font-size: 12px;
+    text-align: justify;
+    max-width: 200px;
+}
